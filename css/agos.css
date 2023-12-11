@@ -1,0 +1,103 @@
+/*STYLE SHEET FOR AGOS index.HTML*/
+
+/* RESET */
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {			
+    background-color: black;
+    font-family: 'Inconsolata', monospace; 
+}
+
+body{
+    margin: 0;
+}
+
+ ul { 
+    list-style-type: none; 
+    font-size: 20px;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    height: 25%; 
+    font-style: normal;
+    font-family: 'Inconsolata', monospace; 
+
+    } 
+
+li {
+    background-color: black;
+    color: lawngreen;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize; 
+    font-family: 'Inconsolata', monospace;    
+}
+
+.nav-text {
+    border: 1px solid lawngreen;
+    border-radius: 15px;
+}
+
+nav, ul, li:first-child {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+}
+
+li,
+a:link, a:visited {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+#agoslogo{
+    height: 600px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    /* outline: 1px solid lawngreen; */
+}
+
+div,
+p{
+    font-family: 'Inconsolata', monospace; 
+    text-align: center;
+}
+
+#agosvideos{
+    background-color: black;
+    font-family: 'Inconsolata', monospace; 
+    text-align: center;
+    width: auto;
+}
+
+video{
+    position: relative; 
+    height: auto;
+    width: 100%;
+}
+
+.footer{
+     position: relative; 
+    bottom:0;
+    width:100vw;
+    height: 100px
+}
+
+.footer,
+ul{
+    text-align: center;
+    background-color: black;
+    font-family: 'Inconsolata', monospace; 
+}
+
+.button{
+    position: relative;
+    background-color: black;
+    margin-bottom: 0;
+}

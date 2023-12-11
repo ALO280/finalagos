@@ -1,0 +1,151 @@
+/*STYLE SHEET FOR about.html*/
+
+/* RESET */
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {			
+    background-color: black;
+    font-family: 'Inconsolata' monospace; 
+    height: 200px;
+    
+}
+
+body{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 1000px;
+  }
+  
+  .img {
+    height:auto;
+    width: 500px;
+    float: left;
+    text-align: left;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: right;
+  }
+
+.container 2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 1000 px;
+  }
+  
+  .portrait {
+    height:1000px;
+    width: auto;
+    float: left;
+    text-align: left;
+  }
+  
+  .bio {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: right;
+  }
+
+ ul { 
+    position: relative;
+    list-style-type: none; 
+    font-size: 20px;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    height: 25%; 
+    font-style: normal;
+    font-family: 'Inconsolata', monospace; 
+
+    } 
+
+li {
+    background-color: black;
+    color: lawngreen;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize; 
+    font-family: 'Inconsolata', monospace;    
+}
+
+.nav-text {
+    border: 1px solid lawngreen;
+    border-radius: 15px;
+}
+
+nav, ul, li:first-child {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+}
+
+li,
+a:link, a:visited {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+div{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    background-color: white;
+    height: 460px;
+    padding-bottom: 10px;
+    
+}
+
+.footer {
+    position: relative;
+    height: 100px;
+    bottom:0;
+}
+
+.footer,
+ul{
+    position: relative; 
+    bottom:0;
+    height: 100px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Inconsolata', monospace; 
+}
+
+.button{
+    position: relative;
+    object-position: center;
+    background-color: black;
+    margin-bottom: 0;
+    height: 100px; 
+    text-align: center;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: black;
+    border: none;
+    color: lawngreen;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Inconsolata";
+    font-size: 15px;
+    border-radius: 10px;
+    bottom: 0;
+}
